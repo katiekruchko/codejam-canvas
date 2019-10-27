@@ -20,7 +20,7 @@ window.onload = function () {
 
 	// create 4х4 matrix
 	let request = new XMLHttpRequest();
-	request.open("GET", "https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/stage-2/codejam-canvas/data/4x4.json", false);
+	request.open("GET", "https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/stage-2/codejam-canvas/data/4x4.json");
 	request.send();
 	request.onload = function () {
 		if (request.status == 200) {
